@@ -18,6 +18,7 @@
 		A33300DA24EB801B00F03FE7 /* GraphsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33300D924EB801B00F03FE7 /* GraphsUITests.swift */; };
 		A33300E824EB80E800F03FE7 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33300E724EB80E800F03FE7 /* BarView.swift */; };
 		A37DFE6A24F094D400557AC2 /* RiskValueBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DFE6924F094D400557AC2 /* RiskValueBarView.swift */; };
+		A3A8F757252405EB00B23FBD /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A8F756252405EA00B23FBD /* CirclesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A33300DB24EB801B00F03FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A33300E724EB80E800F03FE7 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 		A37DFE6924F094D400557AC2 /* RiskValueBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskValueBarView.swift; sourceTree = "<group>"; };
+		A3A8F756252405EA00B23FBD /* CirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A33300B424EB801900F03FE7 /* AppDelegate.swift */,
 				A33300B624EB801900F03FE7 /* SceneDelegate.swift */,
 				A33300BB24EB801900F03FE7 /* ContentView.swift */,
+				A3A8F756252405EA00B23FBD /* CirclesView.swift */,
 				A33300E724EB80E800F03FE7 /* BarView.swift */,
 				A37DFE6924F094D400557AC2 /* RiskValueBarView.swift */,
 				A33300BD24EB801B00F03FE7 /* Assets.xcassets */,
@@ -280,6 +283,7 @@
 				A33300B724EB801900F03FE7 /* SceneDelegate.swift in Sources */,
 				A33300BC24EB801900F03FE7 /* ContentView.swift in Sources */,
 				A33300BA24EB801900F03FE7 /* Graphs.xcdatamodeld in Sources */,
+				A3A8F757252405EB00B23FBD /* CirclesView.swift in Sources */,
 				A33300E824EB80E800F03FE7 /* BarView.swift in Sources */,
 				A37DFE6A24F094D400557AC2 /* RiskValueBarView.swift in Sources */,
 			);
