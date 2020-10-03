@@ -13,12 +13,16 @@ struct CirclesView: View {
         VStack{
             Circle()
                 .fill(Color.red)
-                .frame(width: 100, height: 50)
+                .position(x: 30, y: 10)
+                .frame(width: 100, height:50)
             Circle()
                 .fill(Color.green)
-                .frame(width: 200, height: 90)
+                .frame(width: 60, height: 50)
+                .position(x: 65, y: -47)
+                .fixedSize()
             Circle()
                 .fill(Color.orange)
+                .position(x: 60, y: -60)
                 .frame(width: 100, height: 50)
         }
     }
@@ -30,3 +34,8 @@ struct CirclesView_Previews: PreviewProvider {
         CirclesView()
     }
 }
+
+
+// Think of this group of shapes as a triangle
+//  If a circle grows, the center of the circle moves further back
+//  Move the circle back and grow the
