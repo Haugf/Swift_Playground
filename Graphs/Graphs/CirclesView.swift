@@ -4,17 +4,20 @@
 //
 //  Created by Freddy Haug on 9/29/20.
 //  Copyright © 2020 Freddy Haug. All rights reserved.
-//
+
 
 import SwiftUI
 
 struct CirclesView: View {
+    
+    @State private var animationAmount: CGFloat = 1
     var body: some View {
         VStack{
             Circle()
                 .fill(Color.red)
                 .position(x: 30, y: 10)
                 .frame(width: 100, height:50)
+                .scaleEffect(animationAmount)
             Circle()
                 .fill(Color.green)
                 .frame(width: 60, height: 50)
